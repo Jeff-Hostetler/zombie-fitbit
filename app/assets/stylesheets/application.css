@@ -1,6 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 /*
 * Globals
 */
@@ -164,4 +167,13 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+.container {
+  width: 100%;
+}
+
+.image>img {
+  height: 100%;
+  width: 80%;
 }
